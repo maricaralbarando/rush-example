@@ -3,6 +3,10 @@
   "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
   "packages": [
     {
+      "name": "hot-formula-parser",
+      "allowedCategories": [ "production" ]
+    },
+    {
       "name": "my-controls",
       "allowedCategories": [ "production" ]
     },
