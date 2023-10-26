@@ -1,0 +1,4 @@
+version: 2
+updates:
+  - package-ecosystem: "pnpm"
+    directory: "/common/config/rush/"
