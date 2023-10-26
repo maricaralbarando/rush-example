@@ -2,3 +2,4 @@ version: 2
 updates:
   - package-ecosystem: "pnpm"
     directory: "/common/config/rush/"
+    versioning-strategy: increase
