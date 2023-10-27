@@ -1,5 +1,9 @@
 version: 2
 updates:
-- package-ecosystem: "pnpm"
-  directory: "/"
-  versioning-strategy: increase
+  - package-ecosystem: "pnpm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 10
+    ignore:
+      - dependency-name: "common/config/rush/pnpm-lock.yaml"
