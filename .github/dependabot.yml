@@ -1,5 +1,5 @@
 version: 2
 updates:
-  - package-ecosystem: "pnpm"
-    directory: "/"
-    versioning-strategy: increase
+- package-ecosystem: "pnpm"
+  directory: "/"
+  versioning-strategy: increase
